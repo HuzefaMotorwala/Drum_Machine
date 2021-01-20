@@ -1,0 +1,27 @@
+#drum-machine{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(45deg,blue,cadetblue) ;
+}
+#drum-container{
+    background-image: linear-gradient(135deg,dodgerblue,lightblue);
+    border:5px solid floralwhite;
+    padding:20px;
+    
+}
+#display{
+    background-color: grey;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px 0px 20px 0px;
+}
+#title{
+    font-family: 'Lobster', cursive;
+}
